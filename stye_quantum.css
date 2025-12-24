@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #020924, #040f3a);
+  color: #e6ecff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #020924;
+}
+
+nav h1 {
+  color: #6aa8ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #e6ecff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #6aa8ff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #6aa8ff;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 12px;
+}
+
+.products {
+  display: flex;
+  gap: 40px;
+  padding: 80px 40px;
+}
+
+.product-card {
+  background-color: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.product-card h2 {
+  color: #6aa8ff;
+  margin-bottom: 15px;
+}
+
+.contact {
+  padding: 80px 40px;
+}
+
+.contact h2 {
+  color: #6aa8ff;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+}
